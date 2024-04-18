@@ -22,7 +22,9 @@ from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("", include("core.urls")),
     path("cliente/", include("cliente.urls")),
+    path("producto/", include("producto.urls")),
     # path("saludar/", views.saludo),
     # path("otra_vista/", views.saludo_vista),
     # path("nombre/<nombre>/<apellido>", views.nombre),
