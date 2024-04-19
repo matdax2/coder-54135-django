@@ -42,3 +42,5 @@ def mis_notas(request):
 def ver_persona(request):
     formulario = {"persona": {"nombre": "Hugo", "edad": 38}}
     return render(request, "personas.html", context=formulario)
+
+
