@@ -3,5 +3,6 @@
         "esthorace.python-theme",
         "almahdi.code-django",
         "qwtel.sqlite-viewer",
+        "hossaini.bootstrap-intellisense",
     ]
 }
