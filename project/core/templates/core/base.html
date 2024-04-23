@@ -22,9 +22,15 @@
         {% include 'core/components/navbar.html' %}
         <!-- Page Content-->
         <div class="container px-4 px-lg-5">
-            {% block titulo %}
-                {% include 'core/components/titulo1.html' with titulo="App Coder"%}
-            {% endblock titulo %}
+
+            <div class="row align-items-center my-5">
+                <h1 class="pb-lg-3 text-white bg-info px-3 py-2 rounded">
+                    {% block titulo %}
+                        App Coder
+                    {% endblock titulo %}
+                </h1>
+            </div>
+
             {% block contenido %}
             {% endblock contenido %}
         </div>
